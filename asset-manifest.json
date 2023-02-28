@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/r3f-demo/static/css/main.d463f454.css",
+    "main.js": "/r3f-demo/static/js/main.09dc6081.js",
+    "index.html": "/r3f-demo/index.html",
+    "main.d463f454.css.map": "/r3f-demo/static/css/main.d463f454.css.map",
+    "main.09dc6081.js.map": "/r3f-demo/static/js/main.09dc6081.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d463f454.css",
+    "static/js/main.09dc6081.js"
+  ]
+}
