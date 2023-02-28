@@ -2,6 +2,7 @@
   "name": "r3f-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://so-jimm.github.io/r3f-demo",
   "dependencies": {
     "@react-three/drei": "^9.56.28",
     "@react-three/fiber": "^8.11.5",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

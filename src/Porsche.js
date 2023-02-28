@@ -2,13 +2,7 @@ import React, { useState, startTransition } from "react"
 import { useGesture } from "@use-gesture/react"
 import { usePointStore } from "./usePointStore"
 
-import {
-  useGLTF,
-  meshBounds,
-  OrbitControls,
-  BakeShadows,
-  ContactShadows,
-} from "@react-three/drei"
+import { useGLTF, meshBounds, OrbitControls } from "@react-three/drei"
 
 export function Porsche(props) {
   const { nodes, materials } = useGLTF("/porsche.glb")

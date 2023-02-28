@@ -1,7 +1,7 @@
 import React from "react"
 import { Canvas } from "@react-three/fiber"
 import { DrawPoints } from "./DrawPoints"
-import { Loader, Stage } from "@react-three/drei"
+import { Loader, Stage,   } from "@react-three/drei"
 import { Porsche } from "./Porsche"
 
 function App() {
